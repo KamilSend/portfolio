@@ -1,0 +1,15 @@
+@import "../../../mixins";
+
+.experienceArticle{
+  @include aboutArticle;
+  //display: flex;
+  //background-color: lightblue;
+}
+
+.experienceTile{
+  max-width: 20vw;
+  @include tiles;
+
+
+
+}

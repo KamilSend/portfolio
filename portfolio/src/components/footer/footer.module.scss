@@ -1,0 +1,26 @@
+@import '../../mixins';
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height:15vh;
+  //padding: 10vh 20vw 10vh 20vw;
+  position: absolute;
+  top:400vh;
+  background: rgba(0,0,0,.7);
+  z-index: 2;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.socialFooterWrapper{
+  font-size: 6rem;
+  *{
+    margin: 0 15px 0 15px;
+  }
+}

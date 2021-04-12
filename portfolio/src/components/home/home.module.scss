@@ -1,0 +1,67 @@
+.home{
+  width:100vw;
+  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+  cursor: default;
+}
+
+.mainTitle{
+    width:100%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: alex-brush, sans-serif;
+    top:20%;
+    font-size:12rem;
+    z-index: 10;
+}
+
+.titleSecondary{
+  width:100%;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-family: alex-brush, sans-serif;
+  top:45%;
+  font-size:9rem;
+  z-index: 2;
+}
+
+.homeImg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+}
+
+.imgOverlay{
+  position: fixed;
+  left:0;
+  top:0;
+  height: 100vh;
+  width:100vw;
+  background-color: rgba(0,0,0, .4);
+  z-index: 2;
+}
+
+.socialWrapper{
+  position: absolute;
+  top:70%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+  font-size: 9rem;
+  color: white;
+  //background-color: red;
+
+  *{
+    margin: 0 15px 0 15px;
+  }
+}
+
+.name{
+  position: absolute;
+  top:40%;
+  z-indez: 13;
+}

@@ -1,0 +1,43 @@
+@import "../../variables";
+@import '../../mixins';
+
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    padding: 10vh 20vw 10vh 20vw;
+    position: absolute;
+    top:200vh;
+    //background: rgba(0,0,0,.75);
+    z-index: 2;
+}
+
+.projectsTitle{
+    width: 100vw;
+    color: $color-white;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.imgContainer{
+    width:100%;
+    text-align: center;
+}
+
+.projectsImg{
+    height:50vh;
+    width: auto;
+}
+
+.projectsLink {
+    @include sectionLink;
+    //background-color: red;
+    background-color: rgba(0,0,0, .7);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+}

@@ -1,0 +1,63 @@
+.moreProjects{
+  position: fixed;
+  //top:4vh;
+  //left:4vw;
+  //width:92vw;
+  //height:92vh;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, .8);
+  overflow: auto;
+}
+
+.closeIcon{
+  font-size:5rem;
+  color: black;
+  position:fixed;
+  top:0;
+  right:0;
+  margin:10px;
+}
+
+.homeImg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: 4;
+}
+
+.projectArticle{
+  width:100%;
+  height: 50%;
+  //background-color: green;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projectTitle{
+  font-size: 3rem;
+}
+
+.projectImg{
+  height:auto;
+  width: 45%;
+  align-self:center;
+}
+
+.projectWrapper{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.8rem;
+  line-height: 1.8em;
+  padding:15px;
+}
+
+.projectText{
+
+}
