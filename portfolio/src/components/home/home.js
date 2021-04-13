@@ -14,7 +14,6 @@ const home = () => {
             <img src={backgroundImg} alt="background image" className={styles.homeImg}/>
             <div className={styles.imgOverlay}></div>
             <h1 className={styles.mainTitle}>Kamil Sendecki</h1>
-            <img src={name} alt="Kamil Sendecki" className={styles.name}/>
             <h1 className={styles.titleSecondary}>Web developer</h1>
             <p className={styles.socialWrapper}>
                 <SiLinkedin title="LinkedIn"/>
