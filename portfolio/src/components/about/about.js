@@ -20,18 +20,17 @@ const about = () => {
         <section id="about" name="about" className={styles.about}>
             <div className={styles.aboutHeader}>
                 <img src={face} alt="Kamil Sendecki photo" className={styles.facePhoto}/>
-                <h2 className={styles.aboutTitle}>About me</h2>
+                <h2 className={styles.aboutTitle}>My skills</h2>
             </div>
 
 
             <article className={styles.aboutTile}>
-                <h1>experience</h1>
+                <Skills/>
             </article>
 
 
                     {/*<Experience/>*/}
                     {/*<Education/>*/}
-                    {/*<Skills/>*/}
 
 
             {/*<article className={styles.aboutArticle}></article>*/}
