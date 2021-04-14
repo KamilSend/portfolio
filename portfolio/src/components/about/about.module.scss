@@ -1,0 +1,118 @@
+@import '../../mixins';
+
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height:100vh;
+  //padding: 10vh 20vw 10vh 20vw;
+  position: absolute;
+  top:100vh;
+  //background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.55)  15%, rgba(0,0,0,.75) 50%, rgba(0,0,0,.75) 100%);
+  z-index: 2;
+  //background-color: red;
+
+  //.active{
+  //  border-bottom: 2px solid white;
+  //  font-size: 1.6rem;
+  //}
+}
+
+.aboutTile{
+  margin-bottom: 100px;
+}
+
+.aboutHeader{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutTitle{
+  width: 40%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  height: 15vw;
+}
+
+.facePhoto{
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  box-shadow: 2px 5px 10px 4px rgba(0,0,0, .25);
+}
+
+.aboutText{
+  font-size: 2rem;
+  color: white;
+  line-height: 1.5em;
+}
+
+.resumeLink {
+  @include sectionLink;
+}
+
+.aboutNav{
+  width:100vw;
+  height:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//.active{
+//  border-bottom: 2px solid white;
+//  font-size: 1.6rem;
+//  //background-color: red!important;
+//}
+
+.menuLink{
+  width:110px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  //border-bottom: 1px solid white;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  margin: 0 5px 0 5px;
+  transition: .2s;
+  height: 30px;
+
+  &.active{
+    border-bottom: 2px solid white;
+    font-size: 1.6rem;
+  }
+
+  &:hover{
+    border-bottom: 2px solid white;
+    font-size: 1.6rem;
+  }
+
+  &:last-child{
+    margin-right: 30px;
+  }
+}
+
+.aboutArticle{
+  @include aboutArticle;
+}
+
+.educationArticle{
+  @include aboutArticle;
+
+  p{
+    margin:5px 0 5px 0;
+  }
+
+  .aboutTile{
+    @include tiles;
+  }
+}

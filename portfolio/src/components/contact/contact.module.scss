@@ -1,0 +1,23 @@
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height:100vh;
+  padding: 10vh 20vw 10vh 20vw;
+  position: absolute;
+  top:300vh;
+  //background: rgba(0,0,0,.75);
+  z-index: 2;
+}
+
+.envelope{
+  position: absolute;
+  top:50%;
+  width:auto;
+  height: 85vh;
+  left:50%;
+  transform: translate(-50%, -50%);
+}

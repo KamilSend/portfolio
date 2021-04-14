@@ -1,0 +1,35 @@
+.mainNav{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:6vh;
+  //background-color: rgba(0,0,0, .7);
+  background: linear-gradient(200deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%);
+  z-index: 11;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menuLink{
+  width:80px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  //border-bottom: 1px solid white;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  margin: 0 5px 0 5px;
+  transition: .2s;
+
+  &:hover{
+    border-bottom: 2px solid white;
+    font-size: 1.6rem;
+  }
+
+  &:last-child{
+    margin-right: 30px;
+  }
+}
