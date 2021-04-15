@@ -10,7 +10,7 @@
     align-items: center;
     width:100vw;
     height:100vh;
-    padding: 10vh 20vw 10vh 20vw;
+    padding: 10vh 10vw 10vh 10vw;
     position: absolute;
     top:200vh;
     //background: rgba(0,0,0,.75);
@@ -24,20 +24,99 @@
     font-size: 4rem;
 }
 
-.imgContainer{
-    width:100%;
-    text-align: center;
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    perspective: 150rem;
+    height: 20vw;
+    width: 20vw;
+    font-size:2rem;
+    //transition: all .6s ease-in;
+
+    .front{
+        height: 100%;
+        width:100%;
+        transition: all .6s ease-in;
+        position:absolute;
+        top:0;
+        left:0;
+        backface-visibility: hidden;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba(black, .15);
+    }
+
+    &:hover .front{
+        transform: rotateY(180deg);
+    }
+
+    .back{
+        background-color: rgba(black, .5);
+        color:white;
+        height: 100%;
+        width:100%;
+        transition: all .6s ease-in;
+        position:absolute;
+        top:0;
+        left:0;
+        backface-visibility: hidden;
+        overflow: hidden;
+        box-shadow: 0 1.5rem 4rem rgba(black, .15);
+        transform: rotateY(-180deg);
+
+        .cardTitle{
+            width:100%;
+            text-align: center;
+            padding:10px;
+        }
+
+        .cardText{
+            padding:10px;
+            line-height: 1.4em;
+
+            span{
+                display: block;
+                margin-top: 10px;
+            }
+
+            ul{
+                margin-left: 20px;
+                margin-top: 5px;
+            }
+        }
+    }
+
+    &:hover .back{
+        transform: rotateY(0deg);
+    }
 }
 
 .projectsImg{
-    height:50vh;
-    width: auto;
+    width:100%;
+    height:100%;
 }
 
-.projectsLink {
-    @include sectionLink;
-    //background-color: red;
-    background-color: rgba(0,0,0, .7);
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px rgba(0,0,0, .2);
-}
+//
+//.imgContainer{
+//    width:100%;
+//    text-align: center;
+//    display: flex;
+//    flex-wrap: wrap;
+//    justify-content: center;
+//}
+//
+//.projectsImg{
+//    display: block;
+//    height:auto;
+//    width: 18vw;
+//}
+
+//.projectsLink {
+//    @include sectionLink;
+//    //background-color: red;
+//    background-color: rgba(0,0,0, .7);
+//    border-radius: 15px;
+//    box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+//}
