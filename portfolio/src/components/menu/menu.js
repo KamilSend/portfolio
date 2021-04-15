@@ -14,10 +14,10 @@ const contact = window.innerHeight*3;
 const menu = () => {
     return(
         <nav className={styles.mainNav}>
-            <NavLink to="/" onClick={() => scroll.scrollToTop()} className={styles.menuLink}>main</NavLink>
-            <NavLink to="/" onClick={() => scroll.scrollTo(about)} className={styles.menuLink}>skills</NavLink>
-            <NavLink to="/" onClick={() => scroll.scrollTo(projects)}  className={styles.menuLink}>projects</NavLink>
-            <NavLink to="/" onClick={() => scroll.scrollTo(contact)} className={styles.menuLink}>contact</NavLink>
+            <NavLink to="/" onClick={() => scroll.scrollToTop()} className={styles.menuLink}>Home</NavLink>
+            <NavLink to="/" onClick={() => scroll.scrollTo(about)} className={styles.menuLink}>Umiejętności</NavLink>
+            <NavLink to="/" onClick={() => scroll.scrollTo(projects)}  className={styles.menuLink}>Portfolio</NavLink>
+            <NavLink to="/" onClick={() => scroll.scrollTo(contact)} className={styles.menuLink}>Kontakt</NavLink>
         </nav>
     )
 }
