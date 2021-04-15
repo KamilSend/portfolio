@@ -20,7 +20,7 @@ const about = () => {
         <section id="about" name="about" className={styles.about}>
             <div className={styles.aboutHeader}>
                 <img src={face} alt="Kamil Sendecki photo" className={styles.facePhoto}/>
-                <h2 className={styles.aboutTitle}>My skills</h2>
+                <h2 className={styles.aboutTitle}>Umiejętności</h2>
             </div>
 
 
