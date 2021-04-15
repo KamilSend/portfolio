@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactTooltip from 'react-tooltip';
 
 import styles from './skills.module.scss'
 
@@ -15,23 +16,23 @@ const skills = () => {
         <article className={styles.skillsArticle}>
             <h3 className={styles.skillsTile}>Main:</h3>
             <div className={styles.skillsTile}>
-                <FaHtml5 title="HTML 5"/>
-                <FaCss3Alt title="CSS 3"/>
-                <FaSass  title="Sass"/>
-                <SiJavascript  title="JavaScript"/>
-                <FaReact  title="ReactJS"/>
-                <FaBootstrap  title="Bootstrap"/>
+                <FaHtml5 data-tip="HTML 5" />
+                <FaCss3Alt data-tip="CSS 3"/>
+                <FaSass data-tip="Sass"/>
+                <SiJavascript data-tip="JavaScript"/>
+                <FaReact data-tip="ReactJS"/>
+                <FaBootstrap data-tip="Bootstrap"/>
             </div>
             <h3  className={styles.skillsTile}>Other:</h3>
             <div className={styles.skillsTile}>
-                <SiJquery title="jQuery"/>
-                <FaWordpress title="Wordpress"/>
-                <FaGitAlt title="GIT"/>
-                <SiGimp title="GIMP"/>
-                <SiInkscape title="Inkscape"/>
-                <span title="Cypress"><Icon icon={cypressIcon}  /></span>
+                <SiJquery data-tip="jQuery" />
+                <FaWordpress data-tip="Wordpress"/>
+                <FaGitAlt data-tip="GIT" />
+                <SiGimp data-tip="GIMP"/>
+                <SiInkscape data-tip="Inkscape"/>
+                <span data-tip="Cypress"><Icon icon={cypressIcon}  /></span>
             </div>
-
+            <ReactTooltip type="info"/>
         </article>
     )
 }
