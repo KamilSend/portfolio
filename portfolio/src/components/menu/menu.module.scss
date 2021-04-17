@@ -1,3 +1,5 @@
+@import "../../mixins";
+
 .mainNav{
   position: fixed;
   top:0;
@@ -7,9 +9,13 @@
   //background-color: rgba(0,0,0, .7);
   background: linear-gradient(200deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0) 100%);
   z-index: 11;
-  display: flex;
   justify-content: flex-end;
   align-items: center;
+  display: none;
+
+  @include respond(tab-land){
+    display: flex;
+  }
 }
 
 .menuLink{

@@ -24,10 +24,10 @@ function App() {
 
       <Menu/>
       <Home/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      {/*<About/>*/}
+      {/*<Projects/>*/}
+      {/*<Contact/>*/}
+      {/*<Footer/>*/}
     </div>
   );
 }
