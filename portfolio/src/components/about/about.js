@@ -3,8 +3,6 @@ import { NavLink } from "react-router-dom";
 // import { Switch, Route } from 'react-router-dom';
 import { Link, Route } from "wouter";
 
-import Experience from "./experience/experience";
-import Education from "./education/education";
 import Skills from "./skills/skills";
 
 import styles from './about.module.scss'

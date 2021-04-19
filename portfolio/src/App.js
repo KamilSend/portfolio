@@ -7,6 +7,8 @@ import About from './components/about/about'
 import Projects from './components/projects/projects'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
+import Background from './components/background/background'
+import Layout from './components/layout/layout'
 import MoreProjects from './components/moreProjects/moreProjects'
 import './App.scss';
 
@@ -21,9 +23,9 @@ function App() {
                 </Route>
             </Switch>
 
-
-      <Menu/>
-      <Home/>
+        <Layout/>
+      {/*<Menu/>*/}
+      {/*<Home/>*/}
       {/*<About/>*/}
       {/*<Projects/>*/}
       {/*<Contact/>*/}

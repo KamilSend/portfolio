@@ -1,23 +1,48 @@
+@import '../../mixins';
+
 .contact{
   display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
   justify-content: center;
   align-items: center;
   width:100vw;
-  height:100vh;
-  padding: 10vh 20vw 10vh 20vw;
-  position: absolute;
-  top:300vh;
-  //background: rgba(0,0,0,.75);
-  z-index: 2;
+  height:550px;
+  overflow: hidden;
+
+  @include respond(small-phone){
+    height:600px;
+  }
+  @include respond(phone){
+    height:700px;
+  }
+  @include respond(tab-port){
+    height:85vh;
+  }
 }
 
 .envelope{
-  position: absolute;
-  top:50%;
   width:auto;
-  height: 85vh;
+  height: 480px;
   left:50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-20%, 0);
+
+  @include respond(small-phone){
+    height: 540px;
+    transform: translate(-15%, 0);
+  }
+  @include respond(phone){
+    height: 600px;
+    transform: translate(0, 0);
+  }
+
+  @include respond(tab-port){
+    height: 640px;
+  }
+
+  @include respond(tab-land){
+    height: 700px;
+  }
+
+  @include respond(big-desktop){
+    height: 730px;
+  }
 }
