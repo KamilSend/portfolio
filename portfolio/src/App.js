@@ -22,9 +22,8 @@ function App() {
                     <MoreProjects/>
                 </Route>
             </Switch>
-
         <Layout/>
-      {/*<Menu/>*/}
+      <Menu/>
       {/*<Home/>*/}
       {/*<About/>*/}
       {/*<Projects/>*/}

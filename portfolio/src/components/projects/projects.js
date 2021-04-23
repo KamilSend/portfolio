@@ -19,7 +19,7 @@ import faktury from '../../assets/img/fakturyTile.png'
 
 const projects = () => {
     return(
-        <section id="projects" className={styles.projects}>
+        <section  name="portfolio" id="projects" className={styles.projects}>
             <h2 className={styles.projectsTitle}>Portfolio</h2>
 
             <div className={styles.cardWrapper}>
