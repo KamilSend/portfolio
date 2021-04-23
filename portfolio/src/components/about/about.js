@@ -15,25 +15,14 @@ import { FiDownload } from 'react-icons/fi'
 
 const about = () => {
     return(
-        <section id="about" name="about" className={styles.about}>
+        <section name="about" id="about" className={styles.about}>
             <div className={styles.aboutHeader}>
                 <img src={face} alt="Kamil Sendecki photo" className={styles.facePhoto}/>
                 <h2 className={styles.aboutTitle}>Umiejętności</h2>
             </div>
-
-
             <article className={styles.aboutTile}>
                 <Skills/>
             </article>
-
-
-                    {/*<Experience/>*/}
-                    {/*<Education/>*/}
-
-
-            {/*<article className={styles.aboutArticle}></article>*/}
-
-            {/*<a href="#" className={styles.resumeLink}>Download resume <FiDownload/></a>*/}
         </section>
     )
 }

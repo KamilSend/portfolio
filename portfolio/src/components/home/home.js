@@ -7,7 +7,7 @@ import { FaCodepen} from 'react-icons/fa'
 
 const home = () => {
     return(
-        <section id="home" className={styles.home}>
+        <section  name="home" id="home" className={styles.home}>
             <h1 className={styles.mainTitle}>Kamil Sendecki</h1>
             <h1 className={styles.titleSecondary}>Web developer</h1>
             <p className={styles.socialWrapper}>

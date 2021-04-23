@@ -6,7 +6,7 @@ import envelope from '../../assets/img/envelope4.png'
 
 const contact = () => {
     return(
-        <section id="contact" className={styles.contact}>
+        <section  name="contact" id="contact" className={styles.contact}>
             <a href="mailto:kam.sendecki@gmail.com" className={styles.contactLink} target="_blank" rel="noopener">
                 <img src={envelope} alt="email" className={styles.envelope}/>
             </a>
