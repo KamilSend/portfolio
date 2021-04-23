@@ -10,6 +10,8 @@ import Footer from './components/footer/footer'
 import Background from './components/background/background'
 import Layout from './components/layout/layout'
 import MoreProjects from './components/moreProjects/moreProjects'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.scss';
 
 
