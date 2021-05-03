@@ -3,7 +3,6 @@ import React from 'react'
 import styles from './home.module.scss'
 
 import { SiLinkedin, SiGithub } from 'react-icons/si'
-import { FaCodepen} from 'react-icons/fa'
 
 const home = () => {
     return(
@@ -11,9 +10,8 @@ const home = () => {
             <h1 className={styles.mainTitle}>Kamil Sendecki</h1>
             <h1 className={styles.titleSecondary}>Web developer</h1>
             <p className={styles.socialWrapper}>
-                <SiLinkedin title="LinkedIn"/>
-                <SiGithub title="Github"/>
-                <FaCodepen title="Codepen"/>
+                <a href="https://github.com/KamilSend"><SiLinkedin title="LinkedIn"/></a>
+                <a href="https://www.linkedin.com/in/kamil-sendecki-99742983/"><SiGithub title="Github"/></a>
             </p>
         </section>
     )
