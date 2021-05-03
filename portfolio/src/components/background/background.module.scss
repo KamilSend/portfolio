@@ -5,6 +5,7 @@
   width: 100%;
   object-fit: cover;
   position: fixed;
+  overflow-y: scroll;
 
   @include respond(big-desktop){
     height: 100%;
