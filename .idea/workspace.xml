@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3beec7cb-ee01-4fde-a73b-2abc8ac49e40" name="Default Changelist" comment="navigation for mobile devices">
+    <list default="true" id="3beec7cb-ee01-4fde-a73b-2abc8ac49e40" name="Default Changelist" comment="another try to fix background">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/background/background.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/background/background.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="footer" />
+        <entry key="$PROJECT_DIR$" value="background/fix" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,7 +146,63 @@
       <option name="project" value="LOCAL" />
       <updated>1619186059396</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="try to fix zooming background on scroll">
+      <created>1620037417424</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1620037417424</updated>
+    </task>
+    <task id="LOCAL-00012" summary="try to fix zooming background on scroll">
+      <created>1620037820269</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620037820269</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change background from img to css background">
+      <created>1620038942461</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620038942461</updated>
+    </task>
+    <task id="LOCAL-00014" summary="another try to fix background">
+      <created>1620040061674</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620040061674</updated>
+    </task>
+    <task id="LOCAL-00015" summary="another try to fix background">
+      <created>1620041532089</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620041532089</updated>
+    </task>
+    <task id="LOCAL-00016" summary="another try to fix background">
+      <created>1620041764173</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620041764173</updated>
+    </task>
+    <task id="LOCAL-00017" summary="another try to fix background">
+      <created>1620042083853</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620042083853</updated>
+    </task>
+    <task id="LOCAL-00018" summary="another try to fix background">
+      <created>1620042855362</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620042855362</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +231,9 @@
     <MESSAGE value="big structural changes, a lot of rwd changes, temporary removal of menu" />
     <MESSAGE value="correct implementation of react-scroll" />
     <MESSAGE value="navigation for mobile devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="navigation for mobile devices" />
+    <MESSAGE value="try to fix zooming background on scroll" />
+    <MESSAGE value="change background from img to css background" />
+    <MESSAGE value="another try to fix background" />
+    <option name="LAST_COMMIT_MESSAGE" value="another try to fix background" />
   </component>
 </project>
