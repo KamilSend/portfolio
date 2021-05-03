@@ -17,7 +17,7 @@ const layout = () => (
             <About/>
             <Projects/>
             <Contact/>
-            {/*<Footer/>*/}
+            <Footer/>
         </div>
 
     </>
