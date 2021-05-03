@@ -6,7 +6,12 @@
   max-width: 100%;
   object-fit: cover;
   position: fixed;
-  overflow-y: scroll;
+
+  background: url(../../assets/img/laguna.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   @include respond(big-desktop){
     height: 100%;
