@@ -1,7 +1,7 @@
 @import '../../mixins';
 
 .homeImg{
-  height: 360px;
+  height: 390px;
   //height: 120%;
   width: 100%;
   max-width: 100%;
@@ -15,11 +15,11 @@
   background-size: cover;
 
   @include respond(phone-land){
-    height: 640px
+    height: 670px
   }
 
   @include respond(phone-height){
-    height: 1366px
+    height: 1396px
   }
 
   @include respond(big-desktop){
