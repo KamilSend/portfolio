@@ -3,6 +3,7 @@
 .homeImg{
   height: 120%;
   width: 100%;
+  max-width: 100%;
   object-fit: cover;
   position: fixed;
   overflow-y: scroll;
@@ -19,6 +20,7 @@
   top:0;
   height: 120%;
   width: 100%;
+  max-width: 100%;
   background-color: rgba(0,0,0, .4);
   z-index: 2;
 
