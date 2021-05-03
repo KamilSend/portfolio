@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3beec7cb-ee01-4fde-a73b-2abc8ac49e40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/home/home.js" afterDir="false" />
+    <list default="true" id="3beec7cb-ee01-4fde-a73b-2abc8ac49e40" name="Default Changelist" comment="navigation for mobile devices">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/background/background.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/background/background.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,16 +13,33 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="about" />
+        <entry key="$PROJECT_DIR$" value="footer" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1r6qn8Qf2PiGtV0XtyfKwOickBe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -34,7 +51,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../natours" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -48,8 +66,87 @@
       <option name="presentableId" value="Default" />
       <updated>1618307052672</updated>
       <workItem from="1618307055876" duration="3090000" />
-      <workItem from="1618331020079" duration="112000" />
+      <workItem from="1618331020079" duration="1731000" />
+      <workItem from="1618400143463" duration="12135000" />
+      <workItem from="1618468274271" duration="6754000" />
+      <workItem from="1618646853627" duration="73000" />
+      <workItem from="1618646969347" duration="5208000" />
+      <workItem from="1618826595943" duration="19103000" />
+      <workItem from="1619163357876" duration="14776000" />
+      <workItem from="1620026398233" duration="780000" />
+      <workItem from="1620034022973" duration="1497000" />
     </task>
+    <task id="LOCAL-00001" summary="remove mock image">
+      <created>1618331168632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618331168632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="remove mock image">
+      <created>1618331212119</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618331212119</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change one of the section title">
+      <created>1618402576483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618402576483</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Project section">
+      <created>1618473632404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618473632404</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Zmiany angielskiego na polski">
+      <created>1618475429210</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618475429210</updated>
+    </task>
+    <task id="LOCAL-00006" summary="react tooltips">
+      <created>1618479452190</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618479452190</updated>
+    </task>
+    <task id="LOCAL-00007" summary="home section basic RWD">
+      <created>1618650442522</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618650442522</updated>
+    </task>
+    <task id="LOCAL-00008" summary="big structural changes, a lot of rwd changes, temporary removal of menu">
+      <created>1618852587494</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618852587494</updated>
+    </task>
+    <task id="LOCAL-00009" summary="correct implementation of react-scroll">
+      <created>1619172636871</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619172636871</updated>
+    </task>
+    <task id="LOCAL-00010" summary="navigation for mobile devices">
+      <created>1619186059396</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619186059396</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +166,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="remove mock image" />
+    <MESSAGE value="change one of the section title" />
+    <MESSAGE value="Project section" />
+    <MESSAGE value="Zmiany angielskiego na polski" />
+    <MESSAGE value="react tooltips" />
+    <MESSAGE value="home section basic RWD" />
+    <MESSAGE value="big structural changes, a lot of rwd changes, temporary removal of menu" />
+    <MESSAGE value="correct implementation of react-scroll" />
+    <MESSAGE value="navigation for mobile devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="navigation for mobile devices" />
   </component>
 </project>
