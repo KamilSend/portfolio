@@ -1,7 +1,8 @@
 @import '../../mixins';
 
 .homeImg{
-  height: 120%;
+  height: 360px;
+  //height: 120%;
   width: 100%;
   max-width: 100%;
   object-fit: cover;
@@ -12,6 +13,14 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  @include respond(phone-land){
+    height: 640px
+  }
+
+  @include respond(phone-height){
+    height: 1366px
+  }
 
   @include respond(big-desktop){
     height: 100%;

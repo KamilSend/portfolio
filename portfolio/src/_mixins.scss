@@ -18,6 +18,9 @@
   @if $breakpoint == phone-land {
     @media only screen and (min-height: 22.5rem) { @content };    //360px
   }
+  @if $breakpoint == phone-height {
+    @media only screen and (min-height: 40rem) { @content };    //640px
+  }
   @if $breakpoint == tab-port {
     @media only screen and (min-width: 48rem) { @content };     //768px
   }
