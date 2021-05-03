@@ -6,7 +6,7 @@
   align-items: center;
   width:100vw;
   height:550px;
-  //overflow: hidden;
+  overflow: hidden;
 
   @include respond(small-phone){
     height:600px;

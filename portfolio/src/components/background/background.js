@@ -5,8 +5,7 @@ import styles from './background.module.scss';
 
 const background = () => (
     <>
-        <div className={styles.homeImg}></div>
-        {/*<img src={backgroundImg} alt="background image" className={styles.homeImg}/>*/}
+        <img src={backgroundImg} alt="background image" className={styles.homeImg}/>
         <div className={styles.imgOverlay}></div>
     </>
 )

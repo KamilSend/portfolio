@@ -14,7 +14,7 @@ import cypressIcon from '@iconify-icons/logos/cypress';
 const skills = () => {
     return(
         <article className={styles.skillsArticle}>
-            <h3 className={styles.skillsTile}>Main:</h3>
+            <h3 className={styles.skillsTile}>Główne:</h3>
             <div className={styles.skillsTile}>
                 <FaHtml5 data-tip="HTML 5" />
                 <FaCss3Alt data-tip="CSS 3"/>
@@ -23,7 +23,7 @@ const skills = () => {
                 <FaReact data-tip="ReactJS"/>
                 <FaBootstrap data-tip="Bootstrap"/>
             </div>
-            <h3  className={styles.skillsTile}>Other:</h3>
+            <h3  className={styles.skillsTile}>Inne:</h3>
             <div className={styles.skillsTile}>
                 <SiJquery data-tip="jQuery" />
                 <FaWordpress data-tip="Wordpress"/>
