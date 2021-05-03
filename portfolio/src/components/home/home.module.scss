@@ -82,6 +82,7 @@
 
   *{
     margin: 0 5px 0 5px;
+    color: white;
 
     @include respond(small-phone){
       margin: 0 15px 0 15px;
