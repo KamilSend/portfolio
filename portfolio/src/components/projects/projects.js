@@ -102,6 +102,7 @@ const projects = () => {
                             <br/><span>Wykonano z użyciem:</span>
                             <ul>
                                 <li>CAPAP API</li>
+                                <li>Leaflet</li>
                                 <li>Axios</li>
                                 <li>Firebase</li>
                                 <li>React</li>

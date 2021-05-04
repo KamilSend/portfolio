@@ -106,14 +106,6 @@
             height: 50vw;
         }
 
-        //@include respond(tab-port){
-        //    height: 100%;
-        //    width:100%;
-        //    top:0;
-        //    left:0;
-        //    transform: rotateY(-180deg);
-        //}
-
         @include respond(big-desktop){
             height: 100%;
             width:100%;
