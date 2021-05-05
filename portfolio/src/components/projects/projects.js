@@ -25,12 +25,12 @@ const projects = () => {
             <div className={styles.cardWrapper}>
                 <div className={styles.card}>
                     <div className={styles.front}>
-                        <img src={picas} alt="picas.budujnaturalnie" className={styles.projectsImg}/>
+                        <img src={picas} alt="picas sklep internetowy" className={styles.projectsImg}/>
                     </div>
                     <div className={styles.back}>
-                        <h3 className={styles.cardTitle}>picas.budujnaturalnie</h3>
+                        <h3 className={styles.cardTitle}>picas</h3>
                         <p className={styles.cardText}>Sklep internetowy oferujący naturalne materiały budowlane
-                            <br/><span>Wykonano z użyciem:</span>
+                            <br/><span className={styles.cardUsed}>Wykonano z użyciem:</span>
                             <ul>
                                 <li>WooCommerce</li>
                                 <li>HTML 5</li>
@@ -47,7 +47,7 @@ const projects = () => {
                     <div className={styles.back}>
                         <h3 className={styles.cardTitle}>Automatyzacja wystawiania faktur</h3>
                         <p className={styles.cardText}>Skrypt automatyzujący proces wystawiania faktur sprzedażowych
-                            <br/><span>Wykonano z użyciem:</span>
+                            <br/><span className={styles.cardUsed}>Wykonano z użyciem:</span>
                             <ul>
                                 <li>Cypress</li>
                                 <li>JSON</li>
@@ -62,7 +62,7 @@ const projects = () => {
                     <div className={styles.back}>
                         <h3 className={styles.cardTitle}>budujnaturalnie</h3>
                         <p className={styles.cardText}>Strona promująca naturalne tynki gliniane
-                            <br/><span>Wykonano z użyciem:</span>
+                            <br/><span className={styles.cardUsed}>Wykonano z użyciem:</span>
                             <ul>
                                 <li>Wordpress</li>
                                 <li>HTML 5</li>
@@ -80,7 +80,7 @@ const projects = () => {
                     <div className={styles.back}>
                         <h3 className={styles.cardTitle}>eKeyboard</h3>
                         <p className={styles.cardText}>Aplikacja PWA do nauki gry na keyboardzie
-                            <br/><span>Wykonano z użyciem:</span>
+                            <br/><span className={styles.cardUsed}>Wykonano z użyciem:</span>
                             <ul>
                                 <li>React 16</li>
                                 <li>React-router 5</li>
@@ -99,7 +99,7 @@ const projects = () => {
                     <div className={styles.back}>
                         <h3 className={styles.cardTitle}>Mapa adresów</h3>
                         <p className={styles.cardText}>PoC aplikacji webowej prezentującej adresy na mapie
-                            <br/><span>Wykonano z użyciem:</span>
+                            <br/><span className={styles.cardUsed}>Wykonano z użyciem:</span>
                             <ul>
                                 <li>CAPAP API</li>
                                 <li>Leaflet</li>
@@ -119,7 +119,7 @@ const projects = () => {
                     <div className={styles.back}>
                         <h3 className={styles.cardTitle}>Kalkulator kulinarny</h3>
                         <p className={styles.cardText}>Kalkulator umożliwiajacy obliczanie czasu gotowania różnych składników
-                            <br/><span>Wykonano z użyciem:</span>
+                            <br/><span className={styles.cardUsed}>Wykonano z użyciem:</span>
                             <ul>
                                 <li>JavaScript</li>
                                 <li>HTML 5</li>
@@ -136,7 +136,7 @@ const projects = () => {
                     <div className={styles.back}>
                         <h3 className={styles.cardTitle}>eFaktury</h3>
                         <p className={styles.cardText}>Aplikacja webowa do wystawiania dokumentów sprzedażowych
-                            <br/><span>Wykonano z użyciem:</span>
+                            <br/><span className={styles.cardUsed}>Wykonano z użyciem:</span>
                             <ul>
                                 <li>React</li>
                                 <li>React - bootstrap</li>
@@ -157,7 +157,7 @@ const projects = () => {
                     <div className={styles.back}>
                         <h3 className={styles.cardTitle}>Natours</h3>
                         <p className={styles.cardText}>Strona promująca aktywność na świeżym powietrzu
-                            <br/><span>Wykonano z użyciem:</span>
+                            <br/><span className={styles.cardUsed}>Wykonano z użyciem:</span>
                             <ul>
                                 <li>HTML 5</li>
                                 <li>CSS 3 / Sass</li>
@@ -166,20 +166,6 @@ const projects = () => {
                     </div>
                 </div>
             </div>
-
-
-            {/*<div className={styles.imgContainer}>*/}
-            {/*    <img src={picas} alt="picas.budujnaturalnie" className={styles.projectsImg}/>*/}
-            {/*    <img src={picas} alt="picas.budujnaturalnie" className={styles.projectsImg}/>*/}
-            {/*    <img src={picas} alt="picas.budujnaturalnie" className={styles.projectsImg}/>*/}
-            {/*    <img src={picas} alt="picas.budujnaturalnie" className={styles.projectsImg}/>*/}
-            {/*    <img src={picas} alt="picas.budujnaturalnie" className={styles.projectsImg}/>*/}
-            {/*    <img src={picas} alt="picas.budujnaturalnie" className={styles.projectsImg}/>*/}
-            {/*    <img src={picas} alt="picas.budujnaturalnie" className={styles.projectsImg}/>*/}
-            {/*    <img src={picas} alt="picas.budujnaturalnie" className={styles.projectsImg}/>*/}
-
-            {/*</div>*/}
-            {/*<NavLink to="/moreProjects" className={styles.projectsLink}>See more projects <CgArrowTopRightR/></NavLink>*/}
 
         </section>
     )

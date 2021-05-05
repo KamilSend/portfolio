@@ -49,6 +49,7 @@
         height: 20vw;
         width: 20vw;
         font-size:2rem;
+        padding: 5px;
     }
 
     .front{
@@ -96,14 +97,22 @@
         top:100vw;
         left:0;
         backface-visibility: hidden;
-        overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba(black, .15);
+        overflow: auto;
 
         @include respond(phone){
             top:0;
             left:50vw;
             width:50vw;
             height: 50vw;
+        }
+
+        //@include respond(tab-height){
+        //    overflow: hidden;
+        //}
+
+        @include respond(big-tab-height){
+            overflow: hidden;
         }
 
         @include respond(big-desktop){
@@ -118,6 +127,21 @@
             width:100%;
             text-align: center;
             padding:10px;
+            font-size: 1.3em;
+            font-weight: bold;
+            letter-spacing: 1.2px;
+
+            @include respond(big-desktop){
+                margin-top: 5px;
+                font-size: 1.6em;
+                letter-spacing: 1.3px;
+            }
+        }
+
+        .cardUsed{
+            //font-size: 1.3em;
+            font-weight: bold;
+            //letter-spacing: 1.2px;
         }
 
         .cardText{
