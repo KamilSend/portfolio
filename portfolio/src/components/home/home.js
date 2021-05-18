@@ -10,8 +10,8 @@ const home = () => {
             <h1 className={styles.mainTitle}>Kamil Sendecki</h1>
             <h1 className={styles.titleSecondary}>Web developer</h1>
             <p className={styles.socialWrapper}>
-                <a href="https://github.com/KamilSend"><SiLinkedin title="LinkedIn"/></a>
-                <a href="https://www.linkedin.com/in/kamil-sendecki-99742983/"><SiGithub title="Github"/></a>
+                <a href="https://www.linkedin.com/in/kamil-sendecki-99742983/"><SiLinkedin title="LinkedIn"/></a>
+                <a href="https://github.com/KamilSend"><SiGithub title="Github"/></a>
             </p>
         </section>
     )
