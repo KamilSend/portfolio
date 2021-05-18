@@ -8,8 +8,8 @@ const footer = () => {
     return(
         <section className={styles.footer}>
             <p className={styles.socialFooterWrapper}>
-                <a href="https://github.com/KamilSend"><SiLinkedin title="LinkedIn"/></a>
-                <a href="https://www.linkedin.com/in/kamil-sendecki-99742983/"><SiGithub title="Github"/></a>
+                <a href="https://www.linkedin.com/in/kamil-sendecki-99742983/"><SiLinkedin title="LinkedIn"/></a>
+                <a href="https://github.com/KamilSend"><SiGithub title="Github"/></a>
             </p>
             <p>Copyright 2021 - Sendecki Kamil</p>
         </section>
