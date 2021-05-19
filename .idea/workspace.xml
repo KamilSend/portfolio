@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3beec7cb-ee01-4fde-a73b-2abc8ac49e40" name="Default Changelist" comment="another try to fix background">
+    <list default="true" id="3beec7cb-ee01-4fde-a73b-2abc8ac49e40" name="Default Changelist" comment="zmiana adresu email">
+      <change afterPath="$PROJECT_DIR$/portfolio/src/assets/img/envelope5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/contact/contact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="background/fix" />
+        <entry key="$PROJECT_DIR$" value="contactData" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -75,6 +79,13 @@
       <workItem from="1619163357876" duration="14776000" />
       <workItem from="1620026398233" duration="780000" />
       <workItem from="1620034022973" duration="1497000" />
+      <workItem from="1620122021271" duration="250000" />
+      <workItem from="1620135446857" duration="3346000" />
+      <workItem from="1620456132128" duration="1869000" />
+      <workItem from="1620804261021" duration="1069000" />
+      <workItem from="1621325539014" duration="1568000" />
+      <workItem from="1621327787881" duration="788000" />
+      <workItem from="1621406014195" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="remove mock image">
       <created>1618331168632</created>
@@ -202,7 +213,49 @@
       <option name="project" value="LOCAL" />
       <updated>1620042855362</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="try to find out what element is wider than screen">
+      <created>1620043885363</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1620043885363</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix background">
+      <created>1620049342130</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1620049342130</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add social links">
+      <created>1620068508485</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1620068508485</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add new font, remove unused fonts">
+      <created>1620136530248</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1620136530248</updated>
+    </task>
+    <task id="LOCAL-00023" summary="poprawki adresów mediów społecznościowych, dodanie pliku htaccess">
+      <created>1621325691624</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1621325691624</updated>
+    </task>
+    <task id="LOCAL-00024" summary="zmiana adresu email">
+      <created>1621326391951</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1621326391951</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +287,12 @@
     <MESSAGE value="try to fix zooming background on scroll" />
     <MESSAGE value="change background from img to css background" />
     <MESSAGE value="another try to fix background" />
-    <option name="LAST_COMMIT_MESSAGE" value="another try to fix background" />
+    <MESSAGE value="try to find out what element is wider than screen" />
+    <MESSAGE value="fix background" />
+    <MESSAGE value="add social links" />
+    <MESSAGE value="add new font, remove unused fonts" />
+    <MESSAGE value="poprawki adresów mediów społecznościowych, dodanie pliku htaccess" />
+    <MESSAGE value="zmiana adresu email" />
+    <option name="LAST_COMMIT_MESSAGE" value="zmiana adresu email" />
   </component>
 </project>
