@@ -21,7 +21,7 @@
 
 .envelope{
   width:auto;
-  height: 480px;
+  height: 520px;
   left:50%;
   transform: translate(-20%, 0);
 
@@ -44,5 +44,83 @@
 
   @include respond(big-desktop){
     height: 730px;
+  }
+}
+
+.name, .mail, .phone{
+  position: absolute;
+  font-size: 20px;
+  color: black;
+
+  @include respond(small-phone){
+    font-size: 21px;
+  }
+  @include respond(phone){
+    font-size: 22px;
+  }
+  @include respond(tab-port){
+    font-size: 24px;
+  }
+  @include respond(tab-land){
+    font-size: 27px;
+  }
+
+
+}
+
+p.name{
+  transform: translate(5px,-50px) rotate(5deg);
+
+  @include respond(small-phone){
+    transform: translate(35px,-50px) rotate(5deg);
+  }
+  @include respond(phone){
+    transform: translate(140px,-50px) rotate(5deg);
+  }
+  @include respond(tab-port){
+    transform: translate(150px,-50px) rotate(5deg);
+  }
+  @include respond(tab-land){
+    transform: translate(170px,-50px) rotate(5deg);
+  }
+}
+
+p.mail{
+  transform: translate(5px,0px) rotate(5deg);
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  @include respond(small-phone){
+    transform: translate(35px,0px) rotate(5deg);
+  }
+  @include respond(phone){
+    transform: translate(140px,0px) rotate(5deg);
+  }
+  @include respond(tab-port){
+    transform: translate(150px,0px) rotate(5deg);
+  }
+  @include respond(tab-land){
+    transform: translate(170px,0px) rotate(5deg);
+  }
+}
+
+p.phone{
+  transform: translate(5px,50px) rotate(5deg);
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  @include respond(small-phone){
+    transform: translate(35px,50px) rotate(5deg);
+  }
+  @include respond(phone){
+    transform: translate(140px,50px) rotate(5deg);
+  }
+  @include respond(tab-port){
+    transform: translate(150px,50px) rotate(5deg);
+  }
+  @include respond(tab-land){
+    transform: translate(170px,50px) rotate(5deg);
   }
 }
